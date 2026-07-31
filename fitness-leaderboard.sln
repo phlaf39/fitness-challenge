@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessLeaderboard.Domain", "FitnessLeaderboard.Domain\FitnessLeaderboard.Domain.csproj", "{7FD245D3-1E58-4ECE-BD90-30E806048242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessLeaderboard.Data", "FitnessLeaderboard.Data\FitnessLeaderboard.Data.csproj", "{CC7219B5-7284-45E4-A866-104E9F7A691B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessLeaderboard.Api", "FitnessLeaderboard.Api\FitnessLeaderboard.Api.csproj", "{471BF67B-0FAF-4936-93CD-7569A9F0B41D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{0196050B-D059-4BEC-A4C6-A689ED8BD58B}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FD245D3-1E58-4ECE-BD90-30E806048242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD245D3-1E58-4ECE-BD90-30E806048242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD245D3-1E58-4ECE-BD90-30E806048242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD245D3-1E58-4ECE-BD90-30E806048242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC7219B5-7284-45E4-A866-104E9F7A691B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7219B5-7284-45E4-A866-104E9F7A691B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7219B5-7284-45E4-A866-104E9F7A691B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7219B5-7284-45E4-A866-104E9F7A691B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{471BF67B-0FAF-4936-93CD-7569A9F0B41D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471BF67B-0FAF-4936-93CD-7569A9F0B41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471BF67B-0FAF-4936-93CD-7569A9F0B41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471BF67B-0FAF-4936-93CD-7569A9F0B41D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

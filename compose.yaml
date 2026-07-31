@@ -1,0 +1,25 @@
+﻿services:
+  fitness-leaderboard:
+    image: fitness-leaderboard
+    build:
+      context: .
+      dockerfile: fitness-leaderboard/Dockerfile
+
+  fitnessleaderboard.api:
+    image: fitnessleaderboard.api
+    build:
+      context: .
+      dockerfile: FitnessLeaderboard.Api/Dockerfile
+
+  fitnessleaderboard.domain:
+    image: fitnessleaderboard.domain
+    build:
+      context: .
+      dockerfile: FitnessLeaderBoard.Domain/Dockerfile
+
+  fitnessleaderboard.data:
+    image: fitnessleaderboard.data
+    build:
+      context: .
+      dockerfile: FitnessLeaderBoard.Data/Dockerfile
+
